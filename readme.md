@@ -18,4 +18,4 @@ $ simplehttp2server --help
 
 ## License
 
-MIT
+[MIT](https://1000ch.mit-license.org) © [Shogo Sensui](https://github.com/1000ch)

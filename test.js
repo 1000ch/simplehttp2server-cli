@@ -1,12 +1,11 @@
 'use strict';
 const test = require('ava');
 const execa = require('execa');
-const simplehttp2server = require('simplehttp2server');
 
 test('return path to binary and verify that it is working', async t => {
   let output = '';
   try {
-    output += await execa(simplehttp2server, ['--help']);
+    output += await execa('./cli.js', ['--help']);
   } catch (error) {
     // It will fail, as the exit status code of the executable is 2
     output += error;
