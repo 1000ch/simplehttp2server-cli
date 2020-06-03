@@ -31,12 +31,12 @@
   },
   "homepage": "https://github.com/1000ch/simplehttp2server-cli#readme",
   "dependencies": {
-    "simplehttp2server": "^3.0.1"
+    "simplehttp2server": "^4.0.0"
   },
   "devDependencies": {
     "ava": "^3.8.0",
     "execa": "^4.0.0",
-    "xo": "^0.30.0"
+    "xo": "^0.32.0"
   },
   "xo": {
     "space": 2
