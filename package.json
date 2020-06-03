@@ -1,6 +1,6 @@
 {
   "name": "simplehttp2server-cli",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "simplehttp2server CLI",
   "license": "MIT",
   "repository": "1000ch/simplehttp2server-cli",
