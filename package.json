@@ -36,7 +36,7 @@
   "devDependencies": {
     "ava": "^3.8.0",
     "execa": "^5.0.0",
-    "xo": "^0.36.1"
+    "xo": "^0.41.0"
   },
   "xo": {
     "space": 2
