@@ -10,8 +10,9 @@
     "url": "https://github.com/1000ch"
   },
   "engines": {
-    "node": ">=10"
+    "node": ">=12.20"
   },
+  "type": "module",
   "bin": {
     "simplehttp2server": "cli.js"
   },

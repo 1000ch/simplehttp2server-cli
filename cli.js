@@ -1,10 +1,10 @@
 #!/usr/bin/env node
-'use strict';
-const {spawn} = require('child_process');
-const simplehttp2server = require('simplehttp2server');
+import {spawn} from 'node:child_process';
+import process from 'node:process';
+import simplehttp2server from 'simplehttp2server';
 
 const input = process.argv.slice(2);
 
 spawn(simplehttp2server, input, {
-  stdio: 'inherit'
+  stdio: 'inherit',
 }).on('exit', process.exit);
