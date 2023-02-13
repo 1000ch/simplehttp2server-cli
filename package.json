@@ -35,7 +35,7 @@
     "simplehttp2server": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "^4.0.0",
+    "ava": "^5.2.0",
     "execa": "^6.0.0",
     "xo": "^0.47.0"
   },
